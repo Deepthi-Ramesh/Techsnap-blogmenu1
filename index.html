@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+  <head> 
+                  <!-- link for css -->
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+                   <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Techsnap Blog</title>
+                    <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <!-- main-container -->
+     <div class="main-container">
+        <!-- head-container -->
+         <div class="head-container">
+            <p id="blog"> Our Blog</p>
+            <p id="blog1">Read our latest blog posts</p>
+         </div>
+         <!-- body-container -->
+         <div class="body-container">
+            <!-- sub-container -->
+           <div class="sub-container">
+            <!-- grid-container -->
+                <div class="grid-container">
+                    <!-- grid-1 -->
+                    <div class="grid-1">
+                        <!-- reusable card -->
+                        <div class="card">
+                            <div class="card-img">
+                               <img src="./images/image 1.jpg" alt="blog" />
+                            </div>
+                            <div class="date">
+                               <p>DECEMBER 30, 2021</p>
+                            </div>
+                            <div class="card-text">
+                             <p id="para-1">Technical Analysis of Khonsari Ransomware Campaign Exploiting the LogShell Vulnerability</p>
+                             <p id="para-2">The Log4J vulnerability, which is being actively exploited in the wild, has led to a significant spike... </p>
+                             <p id="continue">CONTINUE READING</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <!-- grid-2 -->
+                    <div class="grid-2">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/image12.png" alt="blog" />
+                            </div>
+                            <div class="date">
+                                <p>DECEMBER 30, 2021</p>
+                             </div>
+                             <div class="card-text">
+                              <p id="para-1">Technical Analysis of Khonsari Ransomware Campaign Exploiting the LogShell Vulnerability</p>
+                              <p id="para-2">The Log4J vulnerability, which is being actively exploited </p>
+                              <p id="continue-2">CONTINUE READING</p>
+                             </div>   
+                        </div>
+                    </div>
+                </div>
+                <!-- page-container" -->
+                <div class="page-container">
+                    <div class="page-buttons">
+                        <button id="pre" onclick="loadOnClick(0)"><</button>
+                        <button id="one" onclick="loadOnClick(1)">1</button>
+                        <button onclick="loadOnClick(2)">2</button>
+                        <button id="three" onclick="loadOnClick(3)">3</button>
+                        <button id="four"onclick="loadOnClick(4)">4</button>
+                        <button id="more">...</button>
+                        <button id="five" onclick="loadOnClick(5)">5</button>
+                        <button id="more1">...</button>
+                        <button  id="six"onclick="loadOnClick(6)">6</button>
+                        <button id="seven" onclick="loadOnClick(7)">7</button>
+                        <button  onclick="loadOnClick(8)">8</button>
+                        <button onclick="loadOnClick(9)">9</button>
+                        <button  id="next"onclick="loadOnClick(0)">></button>
+                    </div>
+                </div>
+           </div>
+           <aside>
+            <!-- aside-section -->
+               <div class="aside-card">
+                   <p id="head">Protect from Online Threats</p>
+                   <p id="para-3"> Detect external threats as regards your organization, classify them based on their severity, and provide real-time alerts., all in at one single place.</p>
+                   <button id="btn">Request a Demo</button>
+                </div>
+                <div class="search">
+                    <div class="search-align">
+                        <img src="./images/search-interface-symbol 2.png" alt=""/>
+                        <input type="text" placeholder="Type to Search" />
+                    </div>
+                </div>
+                <div class="popular-posts">
+                    <p id="head">Popular Posts</p>
+                    <p id="para-4">Technical Analysis of Khonsari Ransomware Campaign Exploiting the Log4Shell Vulnerability</p>
+                    <p id="date">DECEMBER 30, 2021</p>
+                    <p id="para-4">Emotet 2.0: Everything you need to know about the new Variant of the Banking Trojan</p>
+                    <p id="date">DECEMBER 30, 2021</p>
+                    <p id="para-4">Cryptocurrency: An Emerging Target for Cyberattacks</p>
+                    <p id="date-1">DECEMBER 30, 2021</p>
+                </div>
+                <div class="tags">
+                    <h6 id="head">Tags</h6>
+                    <div class="items">
+                        <p>Android(2)</p>
+                        <p>Apple(2)</p>
+                        <p>Awards(4)</p>
+                        <p>Banking Trojan(1)</p>
+                        <p>CobaltStrike(2)</p>
+                        <p>Learning(1)</p>
+                        <p>Excel(2)</p>
+                        <p>DSCI(1)</p>
+                        <p>COVID(2)</p>
+                        <p>Kronos(2)</p>
+                        <p>Malware(2)</p>
+                        <p>Fortinet(3)</p>
+                        <p>Excel(2)</p>
+                        <p>Local Privilege Escalation(1)</p>
+                    </div>
+                </div>
+                <div class="popular-posts">
+                        <p id="head">Recent Posts</p>
+                        <p id="para-4">Technical Analysis of Khonsari Ransomware Campaign Exploiting the Log4Shell Vulnerability</p>
+                        <p id="date">DECEMBER 30, 2021</p>
+                        <p id="para-4">Emotet 2.0: Everything you need to know about the new Variant of the Banking Trojan</p>
+                        <p id="date">DECEMBER 30, 2021</p>
+                        <p id="para-4">Cryptocurrency: An Emerging Target for Cyberattacks</p>
+                        <p id="date-1">DECEMBER 30, 2021</p>
+                  </div>
+           </aside>
+        </div>
+     </div>
+ </body>
+ <script src="./app.js"></script>
+</html>
